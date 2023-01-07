@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: black;
+    width: 300px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 3px 7px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    box-shadow: 0px 5px 5px 3px 6px ;
+    border-radius: 50%;
+    animation-name: trafic;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color:grey;
+    box-shadow: 0px 5px 5px 3px 6px ;
+    border-radius: 50%;
+    margin-top: 10px;
+    animation-name: trafic2;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    box-shadow: 0px 5px 5px 3px 6px ;
+    border-radius: 50%;
+    margin-top: 10px;
+    animation-name: trafic3;
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes trafic{
+    100%{
+        background-color: red;
+    }
+}
+@keyframes trafic2{
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes trafic3{
+    100%{
+        background-color: green;
+    }
+}
